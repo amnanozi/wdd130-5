@@ -1,5 +1,5 @@
 body {
-  
+  margin: 0
 }
 
 .main-para {
@@ -26,6 +26,7 @@ a {
 h1 {
   color: steelblue;
   text-align: center;
+  margin: 50px 0;
 }
 img {
   width: 800px;
@@ -53,4 +54,15 @@ main p {
 a:hover {
   background-color: white;
   color: steelblue;
+}
+footer p {
+  padding: 25px;
+}
+nav {
+  background-color: steelblue;
+  padding: 25px;
+}
+a {
+  color: white;
+  padding: 25px;
 }
