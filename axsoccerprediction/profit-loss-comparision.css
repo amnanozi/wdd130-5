@@ -2,8 +2,9 @@
   display: grid;
   background-color: gray;
   grid-template-columns: auto auto auto;
-  grid-template-rows: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px;
   grid-gap: 15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .section2:hover {
@@ -20,9 +21,20 @@
   color: #000;
   background-color: #fff;
 }
+.section5:hover {
+  color: #000;
+  background-color: #fff;
+}
 
+.section6:hover {
+  color: #000;
+  background-color: #fff;
+}
 
-
+.section7:hover {
+  color: #000;
+  background-color: #fff;
+}
 
 .nestedgrid {
   display: grid;
@@ -43,8 +55,8 @@ p {
 }
 
 p:hover {
-  color: violet;
-  background-color: pink;
+  color: green;
+  background-color: blue;
 }
 
 .section1 {
@@ -55,8 +67,6 @@ p:hover {
   font-size: 50px;
   text-align: center;
   border-radius: 20px;
-  
-
 
 }
 
@@ -71,7 +81,6 @@ p:hover {
   padding: 25px;
   margin: 10px;
 
-
 }
 .section3 {
   grid-column:2 / 3 ;
@@ -83,7 +92,6 @@ p:hover {
   border-radius: 20px;
   padding: 25px;
   margin: 10px;
-
 
 }
 .section4 {
@@ -99,8 +107,46 @@ p:hover {
 
 }
 .section5 {
-  grid-column:1 / 4 ;
+  grid-column:1 / 2 ;
   grid-row: 3 / 4 ;
+  background-color: green;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 10px;
+}
+
+.section6 {
+  grid-column:2 / 3 ;
+  grid-row: 3 / 4 ;
+  background-color: green;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 10px;
+
+}
+
+.section7 {
+  grid-column: 3 / 4 ;
+  grid-row: 3 / 4 ;
+  background-color: green;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 10px;
+
+}
+
+.section8 {
+  grid-column:1 / 4 ;
+  grid-row: 4 / 5 ;
   background-color: purple;
   color: white;
   font-size: 25px;
@@ -113,7 +159,7 @@ p:hover {
   margin: 10px;
   border-radius: 10px;
   padding: 25px;
-  font-size: 100%;
+  font-size: 50%;
   float: right;
   width: 160px;
   opacity: 1.0;
@@ -123,4 +169,3 @@ p:hover {
 .subpageimage:hover {
   opacity: 0.4;
 }
-
